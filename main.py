@@ -1,5 +1,10 @@
 from math import pi
 def deg_to_gms(deg, formats='string'):
+    """
+    :param deg: градусы
+    :param formats: для вида
+    :return: выводит градусы минуты секунды
+    """
     deg1 = int(deg)
     min = deg % 1 * 60
     sec = min % 1 * 60
@@ -7,6 +12,12 @@ def deg_to_gms(deg, formats='string'):
     if formats == 'string':
          return  f'{deg1}° {min}мин {sec}сек '
 def gms_to_deg(deg, min, sec):
+    """
+    :param deg:
+    :param min:
+    :param sec:
+    :return:
+    """
     deg1 = min / 60 + deg
     return deg1
 def deg_to_rad(deg):
