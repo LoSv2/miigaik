@@ -1,14 +1,12 @@
 import random
-def d_z(ch):
-    chl = []
+def d_z(ch, count_p = 23):
     q = 0
-    a = 0
     for i in range(ch):
-        s = random.randint(1,365)
-        chl.append(s)
-        print(chl)
-    for i in range(1000):
-        if chl[a] in chl:
-            q +=1
-        else
+        chl = []
+        for i in range(count_p):
+            s = random.randint(1, 365)
+
+            chl.append(s)
+            print(chl)
+            else
 
