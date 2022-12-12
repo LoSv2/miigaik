@@ -1,4 +1,5 @@
 a = int(input())
-b = a // 10
-c = a % 10
+b = a // 60
+c = b // 60
+
 print(c, b)
