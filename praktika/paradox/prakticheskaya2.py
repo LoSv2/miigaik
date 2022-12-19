@@ -17,4 +17,3 @@ def birthday(iterations_c):
                 if d_data[j] == d_data[i] and m_data[j] == m_data[i]:
                     coincidences += 1
     return f"количество совпадений: {coincidences} количество не совпадений: {not_coincidences} вероятность совпадения: {(coincidences * 100) / (not_coincidences + coincidences)}"
-print(birthday(1000))

@@ -13,4 +13,3 @@ def monty_holl(number_of_checks):
             if a[0] == 1:
                 changed_choice += 1
     return f'количество не меняя выбор: {i} количество поменяв выбор: {changed_choice}'
-print(monty_holl(1000))
